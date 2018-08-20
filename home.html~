@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>First Assignment</title>
+<style>
+.main
+{
+border:1px solid black; 
+height:60px;
+position:relative;
+
+}
+.img{
+height:100%;
+width:30%;
+margin-left:40px;
+position:relative;
+display:inline-block;
+}
+.call
+{
+height:100%;
+float:right;
+margin-left:30px;
+}
+.search
+{
+background-image:url("images/top_search.png");
+background-position:right;
+background-repeat:no-repeat;
+
+}
+.menu{
+list-style-type: none;
+margin: 0;
+padding:0;
+overflow:hidden;
+}
+li
+{
+float:right;
+}
+li a{
+display:inline;
+padding:10px;
+text-decoration:none;
+}
+.second{
+height:60px;
+text-align:center;
+position:relative;
+}
+.button{
+width:200px;
+height:30px;
+background-color:black;
+border:2px solid white;
+color:white;
+}
+.img2{
+height:100%;
+display:inline-block;
+
+}
+.div2{
+ background-image:url("images/hbg2.png");
+height:450px;
+position:relative;
+}
+.div2text{
+ position: absolute;
+right:100px;
+    top: 20%;
+    width: 350px;
+    text-align: center;
+    font-size: 28px;
+}
+.play
+{
+background-color:green;
+opacity:0.5;
+width:80px;
+height:80px;
+position: absolute;
+left:350px;
+top: 50%; text-align: center;
+}
+.playimg
+{
+margin-top:50%;
+width:35px;
+height:35px;
+opacity:1;
+}
+</style>
+</head>
+<body>
+<div class="main">
+<img src="images/logo.png" class="img">
+
+<div class="call">call us today!!(02)9017 8413 <input type="text" class="search"/>
+</br>
+<ul class="menu">
+<li><a href="#home">Home</a></li>
+<li><a href="#dating blog">Dating Blog</a></li>
+<li><a href="#help">Who We Help</a></li>
+<li><a href=#why >Why Vittal</a>
+</li>
+<li><a href="#review">Review</a></li>
+<li><a href="#contact">Contact Us</a></li>
+</ul>
+</div></div>
+
+<div class="main" style="background-color:gray">
+<div class="second">
+<img src="images/icon5.png" class="img2">Lorem Ipsum is simply dummy text in ind. <input type="button" value="Download Now" class="button"/></div>
+</div>
+</div></div>
+<div class="div2">
+<div class="play"><img src="images/icon8.png" class="playimg"></div>
+<div class="div2text">
+Lorem ipsum dolor sit posuer long dolor sit amet.</br>
+It has servived not on?
+<br>
+<input type="button" value="Contact Us" style="background-color:green; color:white; height:30px; width:200px; border-radius:0.2; border-color:no-color;">
+</div>
+</body>
+</html>
+
